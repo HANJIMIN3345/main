@@ -1,0 +1,233 @@
+@charset "utf=8";
+
+*{
+    width: 100%;
+}
+
+html {
+    height:100%;
+}
+body {
+    height:100%;
+    margin:0;
+    border:0;
+    padding:0;
+}
+
+
+/*header*/
+header a:link{color: rgb(223, 217, 206); text-decoration: none;}
+header a:visited{color: rgb(223, 217, 206); text-decoration: none;}
+header a:hover{color: rgb(234, 212, 154); text-decoration: none;}
+header a:active{color: rgb(223, 217, 206); text-decoration: none;}
+
+header p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 32pt;
+    color: rgb(223, 217, 206);
+    margin-top: 25px;
+    /*margin-left: 20px;*/
+}
+header ul{
+    /*margin-left: 120px;*/
+    margin-top: 60px;
+}
+header span{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16pt;
+    justify-content: center;
+    color: rgb(223, 217, 206);
+    /*margin-right: 40px;*/
+    margin-left: 120px;
+}
+header div{
+    position: absolute;
+    margin-top: 30px;
+}
+
+/*main*/
+main p{
+    position: absolute;
+    font-family: Lucida Fax;
+    font-size: 45pt;
+    font-style: oblique;
+    font-weight: bolder;
+    color: rgb(190, 89, 100);
+    text-align: center;
+    /*margin-top: 70px;*/
+}
+#intro_detail{
+    position: absolute;
+    padding: 200px;
+    /*margin-top: 20px;*/
+    margin-left: 380px;
+    margin-top: 40px;
+}
+main h2{
+    color: rgb(54, 64, 39);
+    font-family: Lucida Fax;
+    font-size: 23pt;
+    font-style: oblique;
+}
+#one{
+    margin-bottom: 80px;
+}
+#two{
+    margin-bottom: 80px;
+}
+#small1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#four h2{
+    position: absolute;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 520px;
+}
+#graph{
+    position: absolute;
+    width: 25%;
+    margin-left: 1250px;
+    margin-top: 230px;
+}
+
+/*figure*/
+figure a:link{color: rgb(48, 48, 48); text-decoration: none;}
+figure a:visited{color: rgb(48, 48, 48); text-decoration: none;}
+figure a:hover{color: rgb(54, 64, 39);}
+figure a:active{color: rgb(48, 48, 48); text-decoration: none;}
+
+figure{
+    margin-left: 0px;
+}
+#Pillow{
+    width: 490px;
+    height: 785px;
+    margin-left: 140px;
+}
+#Pillow:hover{
+    opacity: 0.5;
+}
+
+figure > p{
+    position: absolute;
+    font-family: Lucida Fax;
+    font-size: 45pt;
+    font-style: oblique;
+    font-weight: bolder;
+    color: rgb(48, 48, 48);
+    text-align: center;
+    margin-top: 45px;
+}
+#more1{
+    position: absolute;
+    list-style: none;
+    font-family: Noto Sans KR;
+    font-weight: 500;
+    font-size: larger;
+    padding: 300px;
+    margin-left: 5px;
+    margin-top: 30px;
+}
+#more2{
+    position: absolute;
+    list-style: none;
+    font-family: Noto Sans KR;
+    font-weight: 500;
+    font-size: larger;
+    padding: 300px;
+    margin-left: 560px;
+    margin-top: 30px;
+}
+#more3{
+    position: absolute;
+    list-style: none;
+    font-family: Noto Sans KR;
+    font-weight: 500;
+    font-size: larger;
+    padding: 300px;
+    margin-left: 1140px;
+    margin-top: 30px;
+}
+
+#alt{
+    width: 490px;
+    height: 785px;
+    margin-left: 80px;
+}
+#alt:hover{
+    opacity: 0.5;
+}
+#아틀리에{
+    position: absolute;
+    color: rgb(208, 180, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28pt;
+    margin-left: 0px;
+}
+#paris{
+    position: absolute;
+    color: rgb(208, 180, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18pt;
+}
+#ny{
+    width: 25.5%;
+    margin-left: 80px;
+}
+#ny:hover{
+    opacity: 0.5;
+}
+
+/*footer*/
+footer aside{
+    position: absolute;
+}
+footer div{
+    font-family: Lucida Fax;
+    text-align: center;
+    margin-top: 100px;
+}
+footer h2{
+    color: rgb(190, 89, 100);
+    font-size: 35pt;
+    margin-right: 150px;
+}
+footer h5{
+    list-style: none;
+    color: rgb(48, 48, 48);
+    font-size: 18pt;
+    margin-left: 200px;
+}
+footer P{
+    text-align: center;
+    font-family: Lucida Fax;
+    font-size: 20pt;
+    font-weight: bolder;
+    color: rgb(48, 48, 48);
+    margin-top: 50px;
+}
+ul{
+    width:80%;
+    margin-left: 160px;
+    margin-top: 50px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between  ;
+}
+ul > li{
+    text-align: center;
+}
+li > span{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18pt;
+    font-weight: 500;
+    color: rgb(48, 48, 48);
+    margin-top: 20px;
+}
+
+#아이콘 > li > img {
+    width : 60px;
+}

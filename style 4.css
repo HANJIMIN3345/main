@@ -1,0 +1,67 @@
+@charset "utf=8";
+/*background*/
+*{
+    background-color: rgb(247, 232, 215);
+}
+
+/**/
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40pt;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+#web_1{
+    width: 26%;
+    margin-left: 240px;
+    margin-right: 40px;
+}
+#web_2{
+    width: 26%;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+#web_3{
+    width: 26%;
+    margin-left: 20px;
+    margin-right: 200px;
+}
+.mark p{
+    text-align: center;
+    font-size: 30pt;
+    margin-top: 300px;
+    margin-bottom: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(64, 64, 65);
+}
+#tage{
+    width: 50%;
+    margin-left: 700px;
+}
+
+/**/
+span{
+    color: rgb(201, 87, 87);
+}
+.label{
+    text-align: center;
+    margin-bottom: 200px;
+}
+.label p{
+    text-align: center;
+    font-size: 30pt;
+    margin-top: 300px;
+    margin-bottom: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(64, 64, 65);
+}
+#label3{
+    width: 21.2%;
+}
+#label4{
+    width: 21.2%;
+}
+.share{
+    clear: both;
+}
